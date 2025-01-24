@@ -1,0 +1,68 @@
+{
+    "style": "",
+    "camera": "",
+    "quality": "",
+    "lighting": "",
+    "environment": "",
+    "background": {
+        "type": "",
+        "attribute": "",
+        "state": "",
+        "direction": "",
+        "negative": ""
+    },
+    "red": {
+        "type": "",
+        "attribute": "",
+        "state": "",
+        "direction": "",
+        "negative": ""
+    },
+    "green": {
+        "type": "",
+        "attribute": "",
+        "state": "",
+        "direction": "",
+        "negative": ""
+    },
+    "blue": {
+        "type": "",
+        "attribute": "",
+        "state": "",
+        "direction": "",
+        "negative": ""
+    },
+    "yellow": {
+        "type": "",
+        "attribute": "",
+        "state": "",
+        "direction": "",
+        "negative": ""
+    },
+    "relationships": {
+        "red": {
+            "green": "",
+            "blue": "",
+            "yellow": "",
+            "background": ""
+        },
+        "green": {
+            "red": "",
+            "blue": "",
+            "yellow": "",
+            "background": ""
+        },
+        "blue": {
+            "red": "",
+            "green": "",
+            "yellow": "",
+            "background": ""
+        },
+        "yellow": {
+            "red": "",
+            "green": "",
+            "blue": "",
+            "background": ""
+        }
+    }
+}
