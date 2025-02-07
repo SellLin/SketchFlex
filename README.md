@@ -52,6 +52,7 @@ For the first time running:
 ```
 npm install 
 ```
+Run the frontend and enter the local link
 ```
 npm run dev
 ```
