@@ -272,7 +272,7 @@
   // import { dataService } from "@/service";
   import { postJson, postUpdateJson } from "../service/module/dataService";
   import { useDataStore } from "../stores/counter";
-  import mask_prompt from '../../../Backend/mask_prompt.json';
+  import mask_prompt from '../../../backend/mask_prompt.json';
   
   // import { ElMessage, ElMessageBox } from "element-plus";
   export default {
