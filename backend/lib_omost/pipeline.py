@@ -57,7 +57,7 @@ Transformer2DModel.forward = hacked_Transformer2DModel_forward
 #     return x
 
 @torch.no_grad()
-def sample_dpmpp_2m(model, x, sigmas, extra_args=None, callback=None, disable=None):
+def sample_Euler(model, x, sigmas, extra_args=None, callback=None, disable=None):
     """Euler sampling method."""
     extra_args = {} if extra_args is None else extra_args
     s_in = x.new_ones([x.shape[0]])
@@ -458,6 +458,6 @@ class StableDiffusionXLOmostPipeline(StableDiffusionXLImg2ImgPipeline):
 
         # Sample
 
-        results = sample_dpmpp_2m(self.k_model, latents, sigmas, extra_args=sampler_kwargs, disable=False)
+        results = sample_Euler(self.k_model, latents, sigmas, extra_args=sampler_kwargs, disable=False)
 
         return StableDiffusionXLPipelineOutput(images=results)
