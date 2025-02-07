@@ -29,9 +29,9 @@ flask run
 we call stable diffusion webui API to use controlnet and regional prompter.
 if you haven't install webui or haven't use controlnet\regional prompter extension:
 
-download webui: https://github.com/AUTOMATIC1111/stable-diffusion-webui
-regional prompter extension: https://github.com/hako-mikan/sd-webui-regional-prompter
-controlnet extension: https://github.com/Mikubill/sd-webui-controlnet
+-download webui: https://github.com/AUTOMATIC1111/stable-diffusion-webui
+-regional prompter extension: https://github.com/hako-mikan/sd-webui-regional-prompter
+-controlnet extension: https://github.com/Mikubill/sd-webui-controlnet
 
 set your server url in line 341 in app.py, open webui with API Mode.
 
@@ -47,6 +47,11 @@ if use other fastsam version, change line 97 in app.py
 ### 4. frontend
 ```
 cd frontend
-For the first time： npm install
+```
+For the first time running:
+```
+npm install 
+```
+```
 npm run dev
 ```
