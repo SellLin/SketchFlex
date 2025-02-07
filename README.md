@@ -38,7 +38,7 @@ set your server url in line 341 in app.py, open webui with API Mode.
 ### 3. Down load models
 download GoogleNews-vectors-negative300.bin : https://huggingface.co/NathaNn1111/word2vec-google-news-negative-300-bin/tree/main and put in backend\model.
 
-download colorfulxlLightning_v16.safetensors (or other basemodel you would like to use in the final generation) in backend\model.
+download colorfulxlLightning_v16.safetensors：https://huggingface.co/recoilme/workspace/blob/main/ColorfulXL_v16.safetensors (or other basemodel you would like to use in the final generation) in backend\model.
 if use other model name, change line 540 in app.py
 
 download fastsam :https://github.com/CASIA-IVA-Lab/FastSAM and put in backend\model\mobile_sam_test\FastSAM-x.pt.
