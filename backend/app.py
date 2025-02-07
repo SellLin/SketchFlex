@@ -1010,8 +1010,8 @@ def infer_semantic(drawing):
         Make sure all aspects of given mask is filled.
     ''' 
 
-    client = OpenAI(base_url='https://api.chsdw.top/v1',
-        api_key='sk-VsP39aCKuvCR5f2E808aAfE202904c68BbB4DfDa68Dc3a2b')    
+    client = OpenAI(base_url='',
+        api_key='')    
     
     image_path = save_temp_image(drawing)
     base64_image = encode_image(image_path)
