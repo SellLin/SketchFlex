@@ -20,7 +20,7 @@ conda activate sketchflex
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
 
 cd backend
-pip install requirements.txt
+pip install -r requirements.txt
 set FLASK_APP = app.py
 flask run
 ```
