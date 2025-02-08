@@ -30,8 +30,8 @@ we call stable diffusion webui API to use controlnet and regional prompter.
 if you haven't install webui or haven't use controlnet\regional prompter extension:
 
 -download webui: https://github.com/AUTOMATIC1111/stable-diffusion-webui<br>
--regional prompter extension: https://github.com/hako-mikan/sd-webui-regional-prompter, and you can also see instruction: https://stable-diffusion-art.com/regional-prompter/<br>
--controlnet extension: https://github.com/Mikubill/sd-webui-controlnet
+-regional prompter extension: https://github.com/hako-mikan/sd-webui-regional-prompter, see instruction: https://stable-diffusion-art.com/regional-prompter/<br>
+-controlnet extension: https://github.com/Mikubill/sd-webui-controlnet, see instruction: https://www.nextdiffusion.ai/tutorials/how-to-install-controlnet-extension-in-stable-diffusion-a1111
 
 set your server url in line 341 in app.py, open webui with API Mode.
 
