@@ -25,7 +25,7 @@ set FLASK_APP = app.py
 flask run
 ```
 
-### 2. webui API usage
+### 2. webui API usage and MLLM api
 we call stable diffusion webui API to use controlnet and regional prompter.
 if you haven't install webui or haven't use controlnet\regional prompter extension:
 
@@ -34,6 +34,8 @@ if you haven't install webui or haven't use controlnet\regional prompter extensi
 -controlnet extension: https://github.com/Mikubill/sd-webui-controlnet, <br>see instruction: https://www.nextdiffusion.ai/tutorials/how-to-install-controlnet-extension-in-stable-diffusion-a1111
 
 set your server url in line 341 in app.py, open webui with API Mode, see instruction:https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/API
+
+To use prompt recommendation feature in the system, enter your api key (openai) in line 1013 in app.py
 
 ### 3. Down load models
 download GoogleNews-vectors-negative300.bin : https://huggingface.co/NathaNn1111/word2vec-google-news-negative-300-bin/tree/main and put in backend\model.
