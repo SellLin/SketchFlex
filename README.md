@@ -30,10 +30,10 @@ we call stable diffusion webui API to use controlnet and regional prompter.
 if you haven't install webui or haven't use controlnet\regional prompter extension:
 
 -download webui: https://github.com/AUTOMATIC1111/stable-diffusion-webui<br>
--regional prompter extension: https://github.com/hako-mikan/sd-webui-regional-prompter, see instruction: https://stable-diffusion-art.com/regional-prompter/<br>
--controlnet extension: https://github.com/Mikubill/sd-webui-controlnet, see instruction: https://www.nextdiffusion.ai/tutorials/how-to-install-controlnet-extension-in-stable-diffusion-a1111
+-regional prompter extension: https://github.com/hako-mikan/sd-webui-regional-prompter, <br>see instruction: https://stable-diffusion-art.com/regional-prompter/<br>
+-controlnet extension: https://github.com/Mikubill/sd-webui-controlnet, <br>see instruction: https://www.nextdiffusion.ai/tutorials/how-to-install-controlnet-extension-in-stable-diffusion-a1111
 
-set your server url in line 341 in app.py, open webui with API Mode.
+set your server url in line 341 in app.py, open webui with API Mode, see instruction:https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/API
 
 ### 3. Down load models
 download GoogleNews-vectors-negative300.bin : https://huggingface.co/NathaNn1111/word2vec-google-news-negative-300-bin/tree/main and put in backend\model.
