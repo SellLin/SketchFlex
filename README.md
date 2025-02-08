@@ -58,3 +58,5 @@ Run the frontend and enter the local link
 ```
 npm run dev
 ```
+## Acknowledgement
+- [Omost]([https://github.com/lm-sys/FastChat](https://github.com/lllyasviel/Omost)
