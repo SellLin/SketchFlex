@@ -1,7 +1,6 @@
 flask 
 flask_cors
 torch
-cv2
 scipy
 ultralytics
 clip
