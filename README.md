@@ -37,7 +37,7 @@ set your server url in line 341 in app.py, open webui with API Mode, see instruc
 
 To use prompt recommendation feature in the system, enter your api key (openai) in line 1013 in app.py
 
-### 3. Down load models
+### 3. Download models
 download GoogleNews-vectors-negative300.bin : https://huggingface.co/NathaNn1111/word2vec-google-news-negative-300-bin/tree/main and put in backend\model.
 
 download colorfulxlLightning_v16.safetensors：https://huggingface.co/recoilme/workspace/blob/main/ColorfulXL_v16.safetensors (or other basemodel you would like to use in the final generation) in backend\model.
