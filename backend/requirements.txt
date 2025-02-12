@@ -18,4 +18,4 @@ pillow
 einops
 peft
 dashscope
-git+https://github.com/openai/CLIP.git
+openai-clip
