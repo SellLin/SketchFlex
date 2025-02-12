@@ -18,3 +18,4 @@ safetensors
 pillow
 einops
 peft
+dashscope
