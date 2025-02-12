@@ -73,6 +73,24 @@ export function postClean(param, callback) {
     );
 }
 
+export function postCleanMask(param, callback) {
+  const url = `${TEST_URL_PREFIX}/getCleanMask/`;
+  axios
+    .post(url, param, {
+      headers: {
+        "Content-Type": "multipart/form-data",
+      },
+    })
+    .then(
+      (response) => {
+        callback(response.data);
+      },
+      (errResponse) => {
+        console.log(errResponse);
+      }
+    );
+}
+
 // 单 object 生成
 export function postGenSingle(param, callback) {
   const url = `${TEST_URL_PREFIX}/getGenSingle/`;
