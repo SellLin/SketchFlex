@@ -1459,7 +1459,7 @@ def getGenSingle():
                 x1, y1, x2, y2 = map(int, parts[1:])
                 bboxes.append([x1, y1, x2, y2])
 
-    bbox_results = predictor.prompt(everything_results, bboxes=bboxes, texts=texts, clip_model = clip_model, clip_preprocess = preprocess)
+    bbox_results = predictor.prompt(everything_results, bboxes=bboxes, texts=texts)
 
     # # Save the masks to a specified folder
     save_folder_path = fr'..\frontend\src\assets\mask\{color}'
